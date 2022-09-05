@@ -186,6 +186,8 @@ header{
  border-radius:5px ;
  border-style: solid;
  border-color: white;
+      padding-left:150px;
+      padding-rigth:150px;
 }
 .cardgames h4{
    text-align: center;
@@ -199,21 +201,19 @@ header{
    color:springgreen;
 }
 
+
 .cardgames2{
-   display: inline-block;
+   display:inline-block;
    background-color: gray;
-   border-style:solid;
-   border-radius:5px;
-   min-width: 300px;
-   max-width: 300px;
-   margin: 5px; 
-   margin-bottom:10px ;
-   margin-left: 55px;
-   margin-right: 55px;
-   border-radius: 5px;
-   border-style: solid;
-   border-color:white;
-  
+ min-width: 300px;
+ max-width: 300px;
+ margin-top: 15px;
+ margin-bottom: 10px;
+ margin-left: 55px;
+ margin-right: 55px;
+ border-radius:5px ;
+ border-style: solid;
+ border-color: white;
 }
 .cardgames2 h4{
    text-align: center;
