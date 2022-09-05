@@ -152,7 +152,7 @@ font-family: 'Times New Roman', Times, serif;}
 
 /* Juegos */
 .juegos{
-   display:block;
+   display:inline-block;
    border-radius: 5px;
    border-color: white;
    border-style: solid;
