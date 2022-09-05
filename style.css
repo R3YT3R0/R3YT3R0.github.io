@@ -181,7 +181,7 @@ font-family: 'Times New Roman', Times, serif;}
  margin-top: 15px;
  margin-bottom: 10px;
  margin-left: 55px;
- margin-right: 55px;
+ margin-right: 25px;
  border-radius:5px ;
  border-style: solid;
  border-color: white;
@@ -205,10 +205,9 @@ font-family: 'Times New Roman', Times, serif;}
    border-radius:5px;
    min-width: 300px;
    max-width: 300px;
-   margin: 5px; 
    margin-bottom:10px ;
    margin-left: 55px;
-   margin-right: 55px;
+   margin-right: 25px;
    border-radius: 5px;
    border-style: solid;
    border-color:white;
