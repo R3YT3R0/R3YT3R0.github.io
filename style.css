@@ -173,83 +173,59 @@ header{
        .juegos h1:hover{
           color:cyan;
        }
-       
        .cardgames{
-          display:inline-block;
-          background-color: gray;
-        min-width: 300px;
-        max-width: 300px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        margin-right: 35px;
-        border-radius:5px ;
-        border-style: solid;
-        border-color: white;
-       }
-       .cardgames h4{
-          text-align: center;
-          font-size: 24px;
-          border-color: black;
-          border-style: solid;
-          margin-left: 50px;
-          margin-right: 50px;
-       }
-       .cardgames h4:hover{
-          color:springgreen;
-       }
-        
-.cardgames1{
-          display:inline-block;
-          background-color: gray;
-        min-width: 300px;
-        max-width: 300px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        margin-right: 35px;
-        border-radius:5px ;
-        border-style: solid;
-        border-color: white;
-       }
-       .cardgames1 h4{
-          text-align: center;
-          font-size: 24px;
-          border-color: black;
-          border-style: solid;
-          margin-left: 50px;
-          margin-right: 50px;
-       }
-       .cardgames1 h4:hover{
-          color:springgreen;
-       }
-       
-       .cardgames2{
-          display: inline-block;
-          background-color: gray;
-          border-style:solid;
-          border-radius:5px;
-          min-width: 300px;
-          max-width: 300px;
-          margin: 5px; 
-          margin-bottom:10px ;
-          margin-left: 55px;
-          margin-right: 55px;
-          border-radius: 5px;
-          border-style: solid;
-          border-color:white;
-         
-       }
-       .cardgames2 h4{
-          text-align: center;
-          font-size: 24px;
-          border-radius: 5px;
-          border-color: black;
-          border-style: solid;
-          margin-left: 50px;
-          margin-right: 50px;
-       }
-       .cardgames2 h4:hover{
-          color:springgreen;
-       }
+   display:inline-block;
+   background-color: gray;
+ min-width: 300px;
+ max-width: 300px;
+ margin-top: 15px;
+ margin-bottom: 10px;
+ margin-left: 55px;
+ margin-right: 55px;
+ border-radius:5px ;
+ border-style: solid;
+ border-color: white;
+}
+.cardgames h4{
+   text-align: center;
+   font-size: 24px;
+   border-color: black;
+   border-style: solid;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.cardgames h4:hover{
+   color:springgreen;
+}
+
+.cardgames2{
+   display: inline-block;
+   background-color: gray;
+   border-style:solid;
+   border-radius:5px;
+   min-width: 300px;
+   max-width: 300px;
+   margin: 5px; 
+   margin-bottom:10px ;
+   margin-left: 55px;
+   margin-right: 55px;
+   border-radius: 5px;
+   border-style: solid;
+   border-color:white;
+  
+}
+.cardgames2 h4{
+   text-align: center;
+   font-size: 24px;
+   border-radius: 5px;
+   border-color: black;
+   border-style: solid;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.cardgames2 h4:hover{
+   color:springgreen;
+}
        
        /* streamers */
        .streamers{
