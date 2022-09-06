@@ -94,7 +94,12 @@ margin-top: 50px;
 .pais:hover{
    color: yellow;
 }
-.discord:hover{
+.user{
+   color: white;
+   display: none;
+}
+.discord li:hover .user{
+   display: flex;
    color:rgb(114, 137, 217)
 }
 .juego:hover{
@@ -179,6 +184,7 @@ font-family: 'Times New Roman', Times, serif;}
  margin-top: 15px;
  margin-bottom: 10px;
  margin-left: 55px;
+ margin-right: 55px;
  margin-right: 25px;
  border-radius:5px ;
  border-style: solid;
@@ -202,6 +208,10 @@ font-family: 'Times New Roman', Times, serif;}
    border-radius:5px;
    min-width: 300px;
    max-width: 300px;
+   margin: 5px; 
+   margin-bottom:10px ;
+   margin-left: 55px;
+   margin-right: 55px;
    margin-bottom:10px ;
    margin-left: 55px;
    margin-right: 25px;
@@ -239,8 +249,10 @@ font-family: 'Times New Roman', Times, serif;}
    font-size: 40px;
    color: white;
    margin-top: 5px;
-     text-decoration-color:white;
-      text-decoration:underline;
+   margin-left: 125px;
+   margin-right: 125px;
+   max-width: 30px;
+
 }
 .streamCards{
    display:inline-block;
@@ -252,8 +264,9 @@ font-family: 'Times New Roman', Times, serif;}
    max-width: 300px;
    margin: 5px; 
    margin-bottom:10px ;
-   margin-left: 25px;
-    margin-right: 5px;
+   margin-left: 55px;
+   margin-right: 55px;
+   padding-left: 25px;
 }
 .streamCards a{
  color: black;
@@ -316,4 +329,7 @@ font-family: 'Times New Roman', Times, serif;}
    border-style: solid;
    font-size: 20px;
    font-family:fantasy ;
+   text-decoration: un;
 }
+
+
