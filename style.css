@@ -303,7 +303,8 @@ font-family: 'Times New Roman', Times, serif;}
    padding-left: 0px;
    justify-content: center;
    padding-bottom: 20px;
-
+   margin-left:150px;
+   margin-rigth:150px;
 }
 
 .form input{
