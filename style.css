@@ -162,12 +162,10 @@ font-family: 'Times New Roman', Times, serif;}
 .juegos h1{
    text-align: center;
    font-size: 40px;
-   border-radius:10px ;
-   border-color: white;
-   border-style: solid;
    color: white;
    margin-top: 5px;
-   
+     text-decoration-color:white;
+      text-decoration:underline;
 }
 .juegos h1:hover{
    color:cyan;
@@ -189,8 +187,8 @@ font-family: 'Times New Roman', Times, serif;}
 .cardgames h4{
    text-align: center;
    font-size: 24px;
-   border-color: black;
-   border-style: solid;
+   text-decoration-color:white;
+      text-decoration:underline;
    margin-left: 50px;
    margin-right: 50px;
 }
@@ -215,10 +213,10 @@ font-family: 'Times New Roman', Times, serif;}
 }
 .cardgames2 h4{
    text-align: center;
+    text-decoration-color:white;
+      text-decoration:underline;
    font-size: 24px;
-   border-radius: 5px;
-   border-color: black;
-   border-style: solid;
+  
    margin-left: 50px;
    margin-right: 50px;
 }
