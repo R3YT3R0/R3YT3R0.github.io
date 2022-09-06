@@ -187,10 +187,9 @@ font-family: 'Times New Roman', Times, serif;}
 .cardgames h4{
    text-align: center;
    font-size: 24px;
-   text-decoration-color:white;
-      text-decoration:underline;
-   margin-left: 50px;
-   margin-right: 50px;
+   border-color:black;
+   border-style:solid;
+   
 }
 .cardgames h4:hover{
    color:springgreen;
@@ -213,9 +212,9 @@ font-family: 'Times New Roman', Times, serif;}
 }
 .cardgames2 h4{
    text-align: center;
-    text-decoration-color:white;
-      text-decoration:underline;
    font-size: 24px;
+   border-color:black;
+   border-style:solid;
   
    margin-left: 50px;
    margin-right: 50px;
@@ -236,15 +235,12 @@ font-family: 'Times New Roman', Times, serif;}
    margin-right: 180px;
 }
 .streamers h1{
-   color: white;
-   border-radius: 5px;
-   border-color: white;
-   border-style: solid;
    text-align: center;
    font-size: 40px;
+   color: white;
    margin-top: 5px;
-   margin-left: 150px;
-   margin-right: 150px;
+     text-decoration-color:white;
+      text-decoration:underline;
 }
 .streamCards{
    display:inline-block;
