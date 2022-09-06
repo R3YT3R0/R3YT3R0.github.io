@@ -118,8 +118,8 @@ font-family: 'Times New Roman', Times, serif;}
    border-style: solid;
    background-color: rgb(22, 22, 22);
 
-   margin-left: 450px ;
-   margin-right: 450px;
+   margin-left: 350px ;
+   margin-right: 350px;
    margin-top: 20px;
    
 }
@@ -161,18 +161,16 @@ font-family: 'Times New Roman', Times, serif;}
    border-style: solid;
    background-color: rgb(22, 22, 22);
    margin-top: 5px;
-   margin-left: 180px;
-   margin-right: 180px;
+   margin-left: 130px;
+   margin-right: 130px;
 }
 .juegos h1{
    text-align: center;
    font-size: 40px;
-   border-radius:10px ;
-   border-color: white;
-   border-style: solid;
    color: white;
    margin-top: 5px;
-   
+     text-decoration-color:white;
+      text-decoration:underline;
 }
 .juegos h1:hover{
    color:cyan;
@@ -195,10 +193,9 @@ font-family: 'Times New Roman', Times, serif;}
 .cardgames h4{
    text-align: center;
    font-size: 24px;
-   border-color: black;
-   border-style: solid;
-   margin-left: 50px;
-   margin-right: 50px;
+   border-color:black;
+   border-style:solid;
+   
 }
 .cardgames h4:hover{
    color:springgreen;
@@ -226,9 +223,9 @@ font-family: 'Times New Roman', Times, serif;}
 .cardgames2 h4{
    text-align: center;
    font-size: 24px;
-   border-radius: 5px;
-   border-color: black;
-   border-style: solid;
+   border-color:black;
+   border-style:solid;
+  
    margin-left: 50px;
    margin-right: 50px;
 }
@@ -248,16 +245,14 @@ font-family: 'Times New Roman', Times, serif;}
    margin-right: 180px;
 }
 .streamers h1{
-   color: white;
-   border-radius: 5px;
-   border-color: white;
-   border-style: solid;
    text-align: center;
    font-size: 40px;
+   color: white;
    margin-top: 5px;
    margin-left: 125px;
    margin-right: 125px;
    max-width: 30px;
+
 }
 .streamCards{
    display:inline-block;
@@ -315,7 +310,8 @@ font-family: 'Times New Roman', Times, serif;}
    padding-left: 0px;
    justify-content: center;
    padding-bottom: 20px;
-
+   margin-left:150px;
+   margin-rigth:150px;
 }
 
 .form input{
