@@ -249,10 +249,13 @@ font-family: 'Times New Roman', Times, serif;}
    font-size: 40px;
    color: white;
    margin-top: 5px;
-   margin-left: 125px;
-   margin-right: 125px;
-   max-width: 30px;
-
+   text-decoration-color:white;
+   text-decoration:underline;
+}
+.streamers h1:hover{
+   color: cyan;
+   text-decoration-color:white;
+   text-decoration:underline;
 }
 .streamCards{
 
