@@ -292,9 +292,8 @@ font-family: 'Times New Roman', Times, serif;}
 
 /* formulario */
 .contactame{
-   background-color:rgb(55, 55, 55);
-   margin-left: 150px;
-   margin-right: 150px;
+   margin-left: 250px;
+   margin-right: 250px;
    margin-top: 15px;
    border-radius: 5px;
    border-color: black;
