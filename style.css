@@ -255,17 +255,18 @@ font-family: 'Times New Roman', Times, serif;}
 
 }
 .streamCards{
-   display:inline-block;
-   background-color: gray;
- border-style: solid;
- border-color: white;
- border-radius: 5px;
- min-width: 300px;
-   max-width: 300px;
-   margin: 5px; 
-   margin-bottom:10px ;
-   margin-left: 55px;
-   margin-right: 55px;
+   display: inline-block;
+    background-color: gray;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    /* margin-right: 55px; */
+    /* padding: 0; */
 }
 .streamCards a{
  color: black;
