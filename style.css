@@ -247,20 +247,15 @@ font-family: 'Times New Roman', Times, serif;}
 }
 .streamers h1{
    text-align: center;
-   font-size: 45px;
-   text-decoration-color:antiquewhite;
-   text-decoration: underline;
-   color: white;
-}
-.streamers h1:hover{
-   color:cyan;
-   text-decoration-color:white;
    font-size: 40px;
    color: white;
    margin-top: 5px;
-   margin-left: 125px;
-   margin-right: 125px;
-   max-width: 30px;
+     text-decoration-color:white;
+      text-decoration:underline;
+}
+.streamers h1:hover{
+   color:cyan;
+   text-decoration-color:white ;
 }
 .streamCards{
    display: inline-block;
