@@ -255,6 +255,12 @@ font-family: 'Times New Roman', Times, serif;}
 .streamers h1:hover{
    color:cyan;
    text-decoration-color:white;
+   font-size: 40px;
+   color: white;
+   margin-top: 5px;
+   margin-left: 125px;
+   margin-right: 125px;
+   max-width: 30px;
 }
 .streamCards{
    display: inline-block;
@@ -313,7 +319,6 @@ font-family: 'Times New Roman', Times, serif;}
    justify-content: center;
    padding-bottom: 20px;
    margin-left:150px;
-   margin-right:150px;
 }
 
 .form input{
