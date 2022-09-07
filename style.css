@@ -174,6 +174,7 @@ font-family: 'Times New Roman', Times, serif;}
 }
 .juegos h1:hover{
    color:cyan;
+   text-decoration-color:white ;
 }
 
 .cardgames{
@@ -249,24 +250,25 @@ font-family: 'Times New Roman', Times, serif;}
    font-size: 40px;
    color: white;
    margin-top: 5px;
-   margin-left: 125px;
-   margin-right: 125px;
-   max-width: 30px;
-
+     text-decoration-color:white;
+      text-decoration:underline;
+}
+.streamers h1:hover{
+   color:cyan;
+   text-decoration-color:white ;
 }
 .streamCards{
-   display:inline-block;
+   display: inline-block;
    background-color: gray;
- border-style: solid;
- border-color: white;
- border-radius: 5px;
- min-width: 300px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 5px;
+   min-width: 300px;
    max-width: 300px;
-   margin: 5px; 
-   margin-bottom:10px ;
-   margin-left: 55px;
-   margin-right: 55px;
-   padding:0;
+   margin: 5px;
+   margin-bottom: 10px;
+   margin-left: 55px:
+   /* margin-right: 55px; */
 }
 .streamCards a{
  color: black;
@@ -312,6 +314,7 @@ font-family: 'Times New Roman', Times, serif;}
    padding-bottom: 20px;
    margin-left:150px;
    margin-right:150px;
+
 }
 
 .form input{
