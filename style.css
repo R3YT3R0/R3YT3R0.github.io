@@ -118,8 +118,8 @@ font-family: 'Times New Roman', Times, serif;}
    border-style: solid;
    background-color: rgb(22, 22, 22);
 
-   margin-left: 450px ;
-   margin-right: 450px;
+   margin-left: 350px ;
+   margin-right: 350px;
    margin-top: 20px;
    
 }
@@ -161,21 +161,20 @@ font-family: 'Times New Roman', Times, serif;}
    border-style: solid;
    background-color: rgb(22, 22, 22);
    margin-top: 5px;
-   margin-left: 180px;
-   margin-right: 180px;
+   margin-left: 130px;
+   margin-right: 130px;
 }
 .juegos h1{
    text-align: center;
    font-size: 40px;
-   border-radius:10px ;
-   border-color: white;
-   border-style: solid;
    color: white;
    margin-top: 5px;
-   
+     text-decoration-color:white;
+      text-decoration:underline;
 }
 .juegos h1:hover{
    color:cyan;
+   text-decoration-color:white ;
 }
 
 .cardgames{
@@ -195,10 +194,9 @@ font-family: 'Times New Roman', Times, serif;}
 .cardgames h4{
    text-align: center;
    font-size: 24px;
-   border-color: black;
-   border-style: solid;
-   margin-left: 50px;
-   margin-right: 50px;
+   border-color:black;
+   border-style:solid;
+   
 }
 .cardgames h4:hover{
    color:springgreen;
@@ -226,9 +224,9 @@ font-family: 'Times New Roman', Times, serif;}
 .cardgames2 h4{
    text-align: center;
    font-size: 24px;
-   border-radius: 5px;
-   border-color: black;
-   border-style: solid;
+   border-color:black;
+   border-style:solid;
+  
    margin-left: 50px;
    margin-right: 50px;
 }
@@ -248,30 +246,29 @@ font-family: 'Times New Roman', Times, serif;}
    margin-right: 180px;
 }
 .streamers h1{
-   color: white;
-   border-radius: 5px;
-   border-color: white;
-   border-style: solid;
    text-align: center;
-   font-size: 40px;
-   margin-top: 5px;
-   margin-left: 125px;
-   margin-right: 125px;
-   max-width: 30px;
+   font-size: 45px;
+   text-decoration-color:antiquewhite;
+   text-decoration: underline;
+   color: white;
+}
+.streamers h1:hover{
+   color:cyan;
+   text-decoration-color:white;
 }
 .streamCards{
-   display:inline-block;
+   display: inline-block;
    background-color: gray;
- border-style: solid;
- border-color: white;
- border-radius: 5px;
- min-width: 300px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 5px;
+   min-width: 300px;
    max-width: 300px;
-   margin: 5px; 
-   margin-bottom:10px ;
+   margin: 5px;
+   margin-bottom: 10px;
    margin-left: 55px;
-   margin-right: 55px;
-   padding-left: 25px;
+   /* margin-right: 55px; */
+   padding: 0;
 }
 .streamCards a{
  color: black;
@@ -315,7 +312,8 @@ font-family: 'Times New Roman', Times, serif;}
    padding-left: 0px;
    justify-content: center;
    padding-bottom: 20px;
-
+   margin-left:150px;
+   margin-right:150px;
 }
 
 .form input{
