@@ -255,6 +255,7 @@ font-family: 'Times New Roman', Times, serif;}
 
 }
 .streamCards{
+
    display: inline-block;
     background-color: gray;
     border-style: solid;
