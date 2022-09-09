@@ -197,6 +197,10 @@ font-family: 'Times New Roman', Times, serif;}
    color:springgreen;
 }
 
+.cartas1{
+   margin-left:150px;
+}
+
 .cardgames2{
    display:inline-block;
    background-color: gray;
