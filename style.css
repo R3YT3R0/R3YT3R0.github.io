@@ -1,378 +1,51 @@
-header{
-   height: 609px;
-   display: block;
-   flex-direction: column;
- background-color:black ;   
- margin: 0px;
- margin-left: 150px;
- margin-right: 150px;
- border-color: white;
- border-radius: 5px;
- border-style: solid;
-}
-.imagen p{
-   text-align: center;
-  
-}
+
 .contenido{
-   margin-top: 0px;
-   background-color: black;
-   text-align: center;
-   border-color: white;
+   display: flex;
+   height: 100px;
+   flex-direction: row-reverse;
+   margin: 0 auto;
+   flex-direction: unset;
+   background-color: #40394A;
+   border: 3px solid black;
    border-radius: 5px;
-   border-style: solid;
+   margin-bottom: 10px;
+   justify-content:center;
+}
+.contenido img{
+   margin-left: 0px;
+   border: 1px solid black;
 }
 .contenido h1{
-align-items: center;
-color: white;
-display: block;
-font-size: 40px;
-font-family:inherit;
-padding: 5px;
-padding-right: 50px;
-}
-.contenido p{
-    color: white;
-    display: block;
-    font-size: 30px;
-    font-family:inherit;
-    padding: 20px;
-padding-right: 50px;
-}
-.imagen img{
-   padding-right: 0;
-   width: 270px;
-   height: 300px;
-   padding: 20px;
-   padding-right: 50px;
-}
-
-.titulo{
    text-align: center;
-   font-size: 30px;
+   padding-left: 30px;
+   font-size: 40px;
 }
-body{
-   background-color:rgb(126, 202, 156)
 
+.contenido-lista{
+   display: flex;
+   flex-direction: row;
+   background-color: #40394A;
 }
-/* Descripcion */
+
+
+
+/*  
 .yo{
-margin-top: 40px;
-display: block;
-border-radius: 5px;
-border-color: black;
-border-style: solid;
-background-color: rgb(22, 22, 22);
-margin-left: 160px;
-margin-right: 160px;
-margin-top: 50px;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   background-color: black;
+   padding-right: 20px;
 }
 .yo h1{
-   font-size: 50px;
+   color: white;
+   text-decoration: underline;
    text-align: center;
-   color: whitesmoke;
 }
-.yo h1:hover{
-   color: cyan;
-}
-.yo ol{
+
+.yo li{
+   color: white;
    font-size: 25px;
-    color: whitesmoke;
-   font-family: Arial, Helvetica, sans-serif;
-   border-radius: 5px;
-   border-color: white;
-   border-style: solid;
-   padding: 9px;
-   list-style: none;
 }
-.nombre:hover{
-   color: red;
-}
-.edad:hover{
-   color: orange;
-}
-.pais:hover{
-   color: yellow;
-}
-.user{
-   color: white;
-   display: none;
-}
-.discord li:hover .user{
-   display: flex;
-   color:rgb(114, 137, 217)
-}
-.juego:hover{
-   color:darkolivegreen
-}
-.streamer{
-font-family: 'Times New Roman', Times, serif;}
-.streamer:hover{
-   color: crimson;
-}
-/* Ubicacion */
-.ubicacion{
-   display: block;
-   border-color: white;
-   border-radius: 5px;
-   border-style: solid;
-   background-color: rgb(22, 22, 22);
-   margin-left: 150px ;
-   margin-right: 150px;
-   margin-top: 20px;
-   
-}
-.ubicacion h1{
-   text-align: center;
-   font-size: 45px;
-   color: white;
-   border-radius: 5px;
-   border-style: solid;
-   border-color: white;
-}
-.ubicacion h1:hover{
-   color: aqua;
-}
-.ubicacion p{
-   text-align: center;
-}
-.ubicacion a{
-   color:rgb(0, 159, 224);
-   font-size: 28px;
-   text-decoration: none;
-   border-radius: 5px;
-   border-style: solid;
-   border-color: white;
-   margin-left: 25px;
-   margin-right: 25px;
-}
-.ubicacion a:hover{
-   color: rgb(255, 255, 1);
-}
-
-/* Juegos */
-.juegos{
-   display:block;
-   border-radius: 5px;
-   border-color: white;
-   border-style: solid;
-   background-color: rgb(22, 22, 22);
-   margin-top: 5px;
-   margin-left: 150px;
-   margin-right: 150px;
-}
-.juegos h1{
-   text-align: center;
-   font-size: 45px;
-   color: white;
-   margin-top: 5px;
-     text-decoration-color:white;
-      text-decoration:underline;
-}
-.juegos h1:hover{
-   color:cyan;
-}
-
-.cardgames{
-   display:inline-block;
-   background-color: gray;
- min-width: 300px;
- max-width: 300px;
- margin-top: 15px;
- margin-bottom: 10px;
- margin-left: 55px;
- margin-right: 28px;
- border-radius:5px ;
- border-style: solid;
- border-color: white;
-}
-.cardgames h4{
-   text-align: center;
-   font-size: 24px;
-   border-color:black;
-   border-style:solid;
-   
-}
-.cardgames h4:hover{
-   color:springgreen;
-}
-
-.cartas1{
-   margin-left:150px;
-}
-
-.cardgames2{
-   display:inline-block;
-   background-color: gray;
- min-width: 300px;
- max-width: 300px;
- margin-top: 15px;
- margin-bottom: 10px;
- margin-left: 55px;
- margin-right: 28px;
- border-radius:5px ;
- border-style: solid;
- border-color: white;
-}
-.cardgames2 h4{
-   text-align: center;
-   font-size: 24px;
-   border-color:black;
-   border-style:solid;
-}
-.cardgames2 h4:hover{
-   color:springgreen;
-}
-
-/* streamers */
-.streamers{
-   display:block;
-   border-radius: 5px;
-   border-color: white;
-   border-style: solid;
-   background-color: rgb(22, 22, 22);
-   margin-top: 5px;
-   margin-left: 150px;
-   margin-right: 150px;
-}
-.streamers h1{
-   text-align: center;
-   font-size: 45px;
-   color: white;
-   margin-top: 5px;
-   text-decoration-color:white;
-   text-decoration:underline;
-}
-.streamers h1:hover{
-   color: cyan;
-   text-decoration-color:white;
-   text-decoration:underline;
-}
-.streamCards{
-
-   display: inline-block;
-    background-color: gray;
-    border-style: solid;
-    border-color: white;
-    border-radius: 5px;
-    min-width: 300px;
-    max-width: 300px;
-    margin: 5px;
-    margin-bottom: 10px;
-    margin-left: 55px;
-    margin-right: 25px;
-}
-.streamCards a{
- color: black;
- text-decoration: none;
- font-size: 25px;
- border-radius:6px;
- border-style:solid;
- border-color:black;
- padding: 6px;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.streamCards a:hover{
-   color: blueviolet;
-}
-.streamCards p{
-   text-align: center;
-}
-.streamCards img{
-   margin-top: 0px;
-   padding-top: 0px;
-}
-/* Series */
-
-.Series{
-   display:block;
-   background-color:rgb(22, 22, 22);
-   border-radius: 5px;
-   border-color: white;
-   border-style:solid;
-   margin-left:150px;
-   margin-right:150px;
-   margin-top:10px;
-}
-.Series h1{
-   text-align:center;
-   color:white;
-   text-decoration-color:white;
-   font-size:45px;
-   text-decoration:underline;
-}
-.Series h1:hover{
-   color: cyan;
-   text-decoration:underline;
-}
-
-.CardSeries{
-   display: inline-block;
-   background-color: gray;
-  min-width:300px;
-  max-width:300px;
-  border-radius:5px;
-  border-style:solid;
-  border-color:white;
-  margin-bottom: 10px;
-  margin-top:10px;
-  margin-left:55px;
-  margin-right:25px;
-}
-.CardSeries img{
-   height: 200px;
-}
-.CardSeries p{
-   text-align: center;
-}
-.CardSeries a{
-   color: black;
-   text-decoration: none;
-   font-size:25px;
-   border-radius:5px;
-   border-color:black;
-   border-style:solid;
-}
-.CardSeries a:hover{
-   color: orange;
-}
-
-/* formulario */
-.contactame{
-   margin-left: 250px;
-   margin-right: 250px;
-   margin-top: 15px;
-}
-.contactame p{
-   text-align: center;
-}
-
-.form{
-   display: flex;
-   text-align: center;
-   padding-top: 20px;
-   padding-left: 0px;
-   justify-content: center;
-   padding-bottom: 20px;
-   margin-left:150px;
-   margin-right:150px;
-}
-
-.form input{
-   width: 150px;
-   border-radius: 12pc;
-   border-color: black;
-   border-style: solid;
-   font-size: 20px;
-   padding-left: 5px;
-   margin-top: 5px;
-}
-.form textarea{
-   border-radius: 7px;
-   border-color:black;
-   border-style: solid;
-   font-size: 20px;
-   font-family:fantasy ;
-}
-
-
+*/
