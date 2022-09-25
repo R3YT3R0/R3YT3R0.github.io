@@ -1,51 +1,316 @@
-
-.contenido{
+*{
+   list-style: none;
+}
+body{
+   background-color:grey;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+header{
    display: flex;
+   justify-content:space-around;
+   
    height: 100px;
-   flex-direction: row-reverse;
    margin: 0 auto;
-   flex-direction: unset;
-   background-color: #40394A;
-   border: 3px solid black;
-   border-radius: 5px;
-   margin-bottom: 10px;
-   justify-content:center;
+   position: static;
+   background-color: rgb(39, 39, 39);
+   padding:0 auto;
+   margin: 10px;
+      border-radius:20px ;
 }
-.contenido img{
-   margin-left: 0px;
-   border: 1px solid black;
-}
-.contenido h1{
-   text-align: center;
-   padding-left: 30px;
-   font-size: 40px;
-}
-
-.contenido-lista{
+.logo{
    display: flex;
-   flex-direction: row;
-   background-color: #40394A;
+   padding-top: 10px;
 }
+.logo p{
+   display: none;
+   color: white;
+   font-size: 20px;
 
-
-
-/*  
-.yo{
-   justify-content: center;
+}
+.logo img{
+   border-radius: 10px;
+   border-style:solid ;
+   background-color: black;
+}
+.logo img:hover{
+   border-color:white ;
+}
+.titulo h1{
+   display: flex;
+   color: white;
+   justify-self: center;
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.lista{
+   padding: 10;
+}
+.menu{
+   display: flex;
+   padding-bottom: 10px;
+   background-color: rgb(39, 39, 39);
+   height: 70px;
+   border-radius: 10px;
+   padding-right: 10px;
+}
+.menu li{
+   margin-right: 4px;
+   background-color: rgb(65, 64, 64);
+   padding: 3px;
+   border-radius: 5px;
+   border-style: solid;
+}
+.menu a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}
+.menu a:hover{
+      text-decoration:underline;
+      text-decoration-color:goldenrod ;
+      color: rgb(203, 203, 203);
+}
+.submenu{
+   display: none;
+   position:absolute;
+   border-radius: 10px;
+   padding-left: 0px;
+}
+.menu li:hover .submenu{
    display: flex;
    flex-direction: column;
-   width: 300px;
-   background-color: black;
-   padding-right: 20px;
-}
-.yo h1{
-   color: white;
-   text-decoration: underline;
-   text-align: center;
 }
 
+
+main{
+   padding-top: 10px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.yo{
+   width: auto;
+   background-color: rgb(39, 39, 39);
+   border-radius: 10px;
+   border-color: white;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-style: solid;
+ padding-right: 40px;
+}
+.yo h1{
+   color:white;
+   text-align: center;
+}
+.yo h1:hover{
+   color:goldenrod;  
+    text-decoration: underline;
+
+}
 .yo li{
    color: white;
-   font-size: 25px;
+   font-size: 23px;
+   text-align: center;
+   margin: 0 auto;
 }
-*/
+
+.yo li:hover{
+   color: goldenrod;
+}
+.ubicacion {
+   width: auto;
+   text-align: center;
+   background-color: rgb(39, 39, 39);
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 10px;
+   border-style: solid;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-color:white ;
+padding: 20px;
+}
+.ubicacion h1{
+   color: white;
+}
+.ubicacion h1:hover{
+   color: goldenrod;
+   text-decoration: underline;
+
+}
+.ubicacion p{
+   margin: 0 auto;
+}
+.ubicacion a{
+   color: white;
+   font-size: 25px;
+   border-radius: 5px;
+   text-decoration: none;
+   padding: 5px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ubicacion iframe{
+   width: 350px;
+   height: 350px;
+}
+.ubicacion a:hover{
+   color:cadetblue ;
+   text-decoration: underline;
+}
+.CardGames{
+   display: block;
+   background-color: rgb(39, 39, 39);
+   text-align: center;
+   margin-top: 20px;
+   border-radius:10px ;
+   border-style: solid;
+   border-color:white;
+   height: auto;
+   width: auto;
+   padding: 10px;
+   margin-left: 100px;
+   margin-right: 100px;
+   padding-bottom: 20px;
+}
+.CardGames h1{
+   color: white;
+   font-size: 30px;
+   text-decoration: underline;
+}
+.CardGames1{
+   display:inline-block ;
+   border-radius: 20px;
+   margin-top: 10px;
+   border: 3px solid white;
+   background-color: rgb(65, 64, 64);
+}
+.CardGames1 a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}
+.CardGames1 a:hover{
+   color: rgb(205, 214, 214);
+}
+.CardGames1 img{
+   min-width: none;
+   max-width: 400px;
+   min-height: none;
+   max-height: 240px;
+}
+.StreamCards{
+   display: block;
+   background-color: rgb(39, 39, 39);
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius:10px ;
+   border-style: solid;
+   border-color:white;
+   height: auto;
+   padding: 10px;
+   padding-bottom: 20px;
+}
+.StreamCards h1{
+   color: white;
+   font-size: 30px;
+   text-decoration: underline;
+}
+.StreamCards1{
+   display:inline-block ;
+   border-radius: 20px;
+   margin-top: 10px;
+   border: 3px solid white;
+   background-color: rgb(65, 64, 64);
+}
+.StreamCards1 a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+}
+.StreamCards1 a:hover{
+   color: rgb(205, 214, 214);
+}
+.StreamCards1 img{
+   min-width: none;
+   max-width: 400px;
+   min-height: none;
+   max-height: 240px;
+}
+
+
+@media (max-width:800px){
+   main{
+      padding-right: 100px;
+   }
+   header{
+      display:flex;
+      flex-direction: column;
+      width:  450px;
+      height: auto;
+      margin: 0 auto;
+      border-color:white ;
+      border-style: solid;
+      padding: 20px;
+   }
+   .logo{
+      flex-direction: column;
+      margin: 0 auto;
+   }
+ 
+   .yo{
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+   }
+   .logo p{
+      display: block;
+   }
+   .titulo h1{
+      display:none;
+   }
+   .lista{
+      display: flex;
+     margin: 0 auto;
+   }
+   .ubicacion{
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+   }
+   .ubicacion iframe{
+      width: 100%;
+      height: 100%;
+   }
+  
+   .CardGames{
+      height: auto;
+      width: 400px;
+      margin: 0 auto;
+      margin-top:10px ;
+   }
+   .CardGames1{
+      width: auto;
+   }
+   .CardGames1 img{
+      min-width: 80px;
+   }
+   .StreamCards{
+      height: auto;
+      width: 400px;
+      margin: 0 auto;
+      margin-top: 10px;
+
+   }
+   .StreamCards1{
+      width: auto;
+   }
+   .StreamCards1 img{
+      min-width:80px;
+
+   }
+
+}
