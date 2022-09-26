@@ -288,29 +288,23 @@ padding: 20px;
   
    .CardGames{
       height: auto;
-      width: 400px;
+      width: auto;
       margin: 0 auto;
       margin-top:10px ;
    }
    .CardGames1{
       width: auto;
    }
-   .CardGames1 img{
-      min-width: 80px;
-   }
+  
    .StreamCards{
       height: auto;
-      width: 400px;
+      width: auto;
       margin: 0 auto;
       margin-top: 10px;
 
    }
    .StreamCards1{
       width: auto;
-   }
-   .StreamCards1 img{
-      min-width:80px;
-
    }
 
 }
