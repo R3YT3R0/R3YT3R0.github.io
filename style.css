@@ -243,7 +243,7 @@ padding: 20px;
 
 @media (max-width:800px){
    main{
-      padding-right: 100px;
+      margin:0 auto;
    }
    header{
       display:flex;
