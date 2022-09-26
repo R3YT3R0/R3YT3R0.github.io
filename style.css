@@ -262,7 +262,7 @@ padding: 20px;
  
    .yo{
       height: auto;
-      width: 100%;
+      width: auto;
       margin: 0 auto;
    }
    .logo p{
@@ -276,8 +276,8 @@ padding: 20px;
      margin: 0 auto;
    }
    .ubicacion{
-      height: auto;
-      width: 100%;
+    height: auto;
+      width: auto;
       margin: 0 auto;
    }
    .ubicacion iframe{
