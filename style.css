@@ -69,7 +69,7 @@ header{
 .menu a:hover{
       text-decoration:underline;
       text-decoration-color:goldenrod ;
-      color: rgb(203, 203, 203);
+      color: goldenrod;
 }
 .submenu{
    display: none;
